@@ -131,13 +131,24 @@
 		<div class="container-fluid" id="field">
 		<button type="button1" class="btn btn-info btn-large btn-block"  data-target="#demo1" data-toggle="collapse">Test for WPM</button>
 		<div id="demo1" class="collapse"><br>
-				<!--<a  href="">Check here for typing test</a>-->
-		<iframe width="740" height="300" src="https://10fastfingers.com/widgets/ttembeddable/?dur=60&rand=1&words=Abc" frameborder="0"></iframe>
+			<!--<a  href="">Check here for typing test</a>-->
+			<iframe style="padding:10px" width="1000" height="300" src="https://10fastfingers.com/widgets/ttembeddable/?dur=60&rand=1&words=Abc" frameborder="0"></iframe>
 		</div>
 		<br>
 		<br>	
-		<button type="button2" class="btn btn-info btn-large btn-block"  data-target="#demo2">Test for Aptitude level</button>
-		<br>
+		<button type="button2" class="btn btn-info btn-large btn-block"  data-target="#demo2" data-toggle="collapse">Test for Aptitude level</button>
+		
+		<div id="demo2" class="collapse"><br>
+				<!--<a  href="">Check here for typing test</a>-->
+			<a href="https://docs.google.com/forms/d/1cXMxytS7xkIjePsiCDxLRH5RMzs5FXM9MRb3avoHrTw/viewform?viewscore=AE0zAgBWFsYExVv_HjeSa8TDnJeBJ9KnHbwXCTBJQP5DW6M8HdoVxchCx8XNMA&edit_requested=true#responses">Fill the form </a>
+			<p>Enter the marks </p>
+			<input type="number" id="marks">
+			<br>
+			<p>Enter Your Marks proof (Link of Result)</p>
+			<input type="url" id="link">
+			<br>
+			<input type="submit" id="submit" class="btn btn-primary ">
+		</div>
 		<br>	
 		<button type="button3" class="btn btn-info btn-large btn-block"  data-target="#demo3">Test for 50 competitive and logical question</button>
 		<br>
