@@ -22,10 +22,42 @@
 
     <!-- Morris Charts CSS -->
     <link href="vendor/morrisjs/morris.css" rel="stylesheet">
-
+	
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script>
+function loadDoc(url,field) 
+{   
+    // url - url of php page
+    // field - id of div to be filled dynamically
+    if(url == 'add-issue.php')      //to hide the searchBar when user clicks Add an issue in home page
+    {
+        $('#searchBar').hide();
+    }
+    if (window.XMLHttpRequest)
+    {
 
+        // code for modern browsers
+        xhttp = new XMLHttpRequest();
+    }
+    else
+    {
+        // code for IE6, IE5
+        xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xhttp.onreadystatechange = function()
+    {
+        if (this.readyState == 4 && this.status == 200)
+        {
+			
+            document.getElementById(field).innerHTML = this.responseText; 
+        }
+    };
+    xhttp.open("GET", url, true);
+    xhttp.send();
+}
+
+</script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -106,61 +138,16 @@
                             <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="flot.html">Flot Charts</a>
-                                </li>
-                                <li>
-                                    <a href="morris.html">Morris.js Charts</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Profile</a>
+						</li>
+                        <li>
+                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Practice</a>
                         </li>
                         <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Test</a>
                         </li>
-                        <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="panels-wells.html">Panels and Wells</a>
-                                </li>
-                                <li>
-                                    <a href="buttons.html">Buttons</a>
-                                </li>
-                                <li>
-                                    <a href="notifications.html">Notifications</a>
-                                </li>
-                                <li>
-                                    <a href="typography.html">Typography</a>
-                                </li>
-                                <li>
-                                    <a href="icons.html"> Icons</a>
-                                </li>
-                                <li>
-                                    <a href="grid.html">Grid</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-
-                        <li>
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="blank.html">Blank Page</a>
-                                </li>
-                                <li>
-                                    <a href="login.html">Login Page</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                    </ul>
+                        
+				   </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
             </div>
@@ -175,7 +162,7 @@
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <div class="row">
+            <div class="row" >
                 <div class="col-lg-3 col-md-20">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
@@ -189,9 +176,9 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="#">
+                        <a href="loadDoc('level1.html','page-wrapper')">
                             <div class="panel-footer">
-                                <span class="pull-left">Go here</span>
+                                <span class="pull-left" href="javascript:loadDoc('level1.html','page-wrapper')">Go here</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
