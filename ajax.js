@@ -2,10 +2,7 @@ function loadDoc(url,field)
 {   
     // url - url of php page
     // field - id of div to be filled dynamically
-    if(url == 'add-issue.php')      //to hide the searchBar when user clicks Add an issue in home page
-    {
-        $('#searchBar').hide();
-    }
+    
     if (window.XMLHttpRequest)
     {
 

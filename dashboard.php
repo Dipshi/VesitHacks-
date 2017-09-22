@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <title>CodeSchool</title>
 
     <!-- Bootstrap Core CSS -->
@@ -25,39 +25,7 @@
 	
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<script>
-function loadDoc(url,field) 
-{   
-    // url - url of php page
-    // field - id of div to be filled dynamically
-    if(url == 'add-issue.php')      //to hide the searchBar when user clicks Add an issue in home page
-    {
-        $('#searchBar').hide();
-    }
-    if (window.XMLHttpRequest)
-    {
-
-        // code for modern browsers
-        xhttp = new XMLHttpRequest();
-    }
-    else
-    {
-        // code for IE6, IE5
-        xhttp = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xhttp.onreadystatechange = function()
-    {
-        if (this.readyState == 4 && this.status == 200)
-        {
-			
-            document.getElementById(field).innerHTML = this.responseText; 
-        }
-    };
-    xhttp.open("GET", url, true);
-    xhttp.send();
-}
-
-</script>
+ <script src="ajax.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -135,10 +103,10 @@ function loadDoc(url,field)
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="firstpage.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Profile</a>
+                            <a href="level1.html"><i class="fa fa-bar-chart-o fa-fw"></i>Profile</a>
 						</li>
                         <li>
                             <a href="tables.html"><i class="fa fa-table fa-fw"></i> Practice</a>
@@ -154,15 +122,14 @@ function loadDoc(url,field)
             <!-- /.navbar-static-side -->
         </nav>
 <!--start of my need-->
-        <div id="page-wrapper">
-            <div class="row">
-                <div class="col-lg-12">
+
+ 
+      <div id="page-wrapper">
+           <div class="col-lg-12">
                     <h1 class="page-header">Dashboard</h1>
                 </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-            <div class="row" >
+		<div class="container-fluid" id="field">
+<div class="row" >
                 <div class="col-lg-3 col-md-20">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
@@ -178,7 +145,7 @@ function loadDoc(url,field)
                         </div>
                         <a href="loadDoc('level1.html','page-wrapper')">
                             <div class="panel-footer">
-                                <span class="pull-left" href="javascript:loadDoc('level1.html','page-wrapper')">Go here</span>
+                                <span class="pull-left" href="javascript:loadDoc('level1.html','field')">Go here</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                                 <div class="clearfix"></div>
                             </div>
@@ -252,11 +219,7 @@ function loadDoc(url,field)
                     </div>
                 </div>
             </div>
-            
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
-
+		</div>
     </div>
     <!-- /#wrapper -->
 
