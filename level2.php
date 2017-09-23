@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -100,7 +101,7 @@
                                 </button>
                             </span>
                             </div>
-                            <!-- /input-group -->
+                         
                         </li>
                         <li>
                             <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
@@ -112,113 +113,56 @@
                             <a href="practice.php"><i class="fa fa-table fa-fw"></i> Learn</a>
                         </li>
                         <li>
-                            <a href=""><i class="fa fa-edit fa-fw"></i> Practice</a>
+                            <a href=""><i class="fa fa-edit fa-fw"></i>Practice</a>
                         </li>
                         
 				   </ul>
                 </div>
-                <!-- /.sidebar-collapse -->
+              
             </div>
-            <!-- /.navbar-static-side -->
+           
         </nav>
-<!--start of my need-->
 
  
       <div id="page-wrapper">
            <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h1 class="page-header">Level 2</h1>
                 </div>
 		<div class="container-fluid" id="field">
-		<div class="row" >
-                <div class="col-lg-3 col-md-20">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 0</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="level0.php">
-                            <div class="panel-footer">
-                                <span class="pull-left" href="level0.php">Go here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 1</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="level1.php">
-                            <div class="panel-footer">
-                                <span class="pull-left">Go Here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 2</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="level2.php">
-                            <div class="panel-footer">
-                                <span class="pull-left">Go here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 3</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">Go Here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+		<button type="button1" class="btn btn-info btn-large btn-block"  data-target="#demo1" data-toggle="collapse">Test for WPM(criteria above 40wpm)</button>
+		<div id="demo1" class="collapse"><br>
+			<!--<a  href="">Check here for typing test</a>-->
+			<iframe style="padding:10px" width="1000" height="300" src="https://10fastfingers.com/widgets/ttembeddable/?dur=60&rand=1&words=Abc" frameborder="0"></iframe>
+		</div>
+		<br>
+		<br>	
+		<button type="button2" class="btn btn-info btn-large btn-block"  data-target="#demo2" data-toggle="collapse">Test for Aptitude level</button>
+		
+		<div id="demo2" class="collapse"><br>
+				<!--<a  href="">Check here for typing test</a>-->
+			<a href="https://docs.google.com/forms/d/1cXMxytS7xkIjePsiCDxLRH5RMzs5FXM9MRb3avoHrTw/viewform?viewscore=AE0zAgBWFsYExVv_HjeSa8TDnJeBJ9KnHbwXCTBJQP5DW6M8HdoVxchCx8XNMA&edit_requested=true#responses">Fill the form </a>
+			<p>Enter the marks </p>
+			<input type="number" id="marks">
+			<br>
+			<p>Enter Your Marks proof (Link of Result)</p>
+			<input type="url" id="link">
+			<br><br>
+			<br>
+			
+			<input type="submit" id="submit" class="btn btn-primary ">
+		</div>
+		<br>	
+		<button type="button3" class="btn btn-info btn-large btn-block"  data-target="#demo3">Test for 100 competitive and logical question</button>
+		<br>
+		<br>	
+		<button type="button4" class="btn btn-info btn-large btn-block" data-toggle="collapse" data-target="#demo4">Test for Advanced Algorithm</button>
+		<br>
+		<br>	
+		<div id="demo4" class="collapse">
+		<br>
+		<a type="button5" class=""  data-target="#demo">Trees</a><br>
+		<br>	
+		<a type="button6" class=""  data-target="#dem0">Graphs</a>
 		</div>
     </div>
     <!-- /#wrapper -->
