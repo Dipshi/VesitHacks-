@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--level0-->
 <head>
 
     <meta charset="utf-8">
@@ -102,7 +102,7 @@
                             </div>
                             <!-- /input-group -->
                         </li>
-                        <li>
+                         <li>
                             <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
@@ -112,7 +112,7 @@
                             <a href="practice.php"><i class="fa fa-table fa-fw"></i> Practice</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Test</a>
+                            <a href=""><i class="fa fa-edit fa-fw"></i> Test</a>
                         </li>
                         
 				   </ul>
@@ -126,99 +126,32 @@
  
       <div id="page-wrapper">
            <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h1 class="page-header">Level 0</h1>
                 </div>
 		<div class="container-fluid" id="field">
-		<div class="row" >
-                <div class="col-lg-3 col-md-20">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 0</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="level0.php">
-                            <div class="panel-footer">
-                                <span class="pull-left" href="level0.php">Go here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 1</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="level1.php">
-                            <div class="panel-footer">
-                                <span class="pull-left">Go Here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-yellow">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 2</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="level2.php">
-                            <div class="panel-footer">
-                                <span class="pull-left">Go here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-red">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">0</div>
-                                    <div>Level 3</div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">Go Here</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+		
+		<button type="button2" class="btn btn-info btn-large btn-block"  data-target="#demo2" data-toggle="collapse">Test for progrmics basics </button>
+		
+		<div id="demo2" class="collapse"><br>
+				<!--<a  href="">Check here for typing test</a>-->
+			<a href="https://docs.google.com/forms/d/1cXMxytS7xkIjePsiCDxLRH5RMzs5FXM9MRb3avoHrTw/viewform?viewscore=AE0zAgBWFsYExVv_HjeSa8TDnJeBJ9KnHbwXCTBJQP5DW6M8HdoVxchCx8XNMA&edit_requested=true#responses">Fill the form </a>
+			<p>Enter the marks </p>
+			<input type="number" id="marks">
+			<br>
+			<p>Enter Your Marks proof (Link of Result)</p>
+			<input type="url" id="link">
+			<br><br>
+			<br>
+			
+			<input type="submit" id="submit" class="btn btn-primary ">
+		</div>
+		<br>
+		<br>
+		<div>
+		
+		<p><b>Poblem statement</b></p>
+		<br>
+		<input type="textarea" >
 		</div>
     </div>
     <!-- /#wrapper -->
