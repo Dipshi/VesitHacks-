@@ -126,7 +126,7 @@
  
       <div id="page-wrapper">
            <div class="col-lg-12">
-                    <h1 class="page-header">Level 0</h1>
+                    <h1 class="page-header">Level 1</h1>
                 </div>
 		<div class="container-fluid" id="field">
 		<button type="button1" class="btn btn-info btn-large btn-block"  data-target="#demo1" data-toggle="collapse">Test for WPM</button>
