@@ -151,7 +151,17 @@
 		
 		<p><b>Poblem statement</b></p>
 		<br>
-		<input type="textarea" >
+		<form method="POST" action="editor.php">
+		<select id="val">
+		  <option value="1">C</option>
+		  <option value="2">C++</option>
+		  <option value="3">Java</option>
+		  <option value="5">Python</option>
+		</select>
+		<textarea rows="30" cols="100" name="htu">
+		</textarea>
+		<input type="submit" name="button" value="submit">
+	</form>
 		</div>
     </div>
     <!-- /#wrapper -->
