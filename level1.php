@@ -133,6 +133,12 @@
 		<div id="demo1" class="collapse"><br>
 			<!--<a  href="">Check here for typing test</a>-->
 			<iframe style="padding:10px" width="1000" height="300" src="https://10fastfingers.com/widgets/ttembeddable/?dur=60&rand=1&words=Abc" frameborder="0"></iframe>
+			<p>Enter the Marks</p>
+			<input type="integer" id="wpm_marks">
+			<br>
+			<br>
+			<input type="submit" id="submit_wpm">
+			<br>
 		</div>
 		<br>
 		<br>	
@@ -147,6 +153,8 @@
 			<p>Enter Your Marks proof (Link of Result)</p>
 			<input type="url" id="link">
 			<br>
+			<br>
+			
 			<input type="submit" id="submit" class="btn btn-primary ">
 		</div>
 		<br>	
