@@ -109,10 +109,10 @@
                             <a href=""><i class="fa fa-bar-chart-o fa-fw"></i>Profile</a>
 						</li>
                         <li>
-                            <a href="practice.php"><i class="fa fa-table fa-fw"></i> Practice</a>
+                            <a href="practice.php"><i class="fa fa-table fa-fw"></i> Learn</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Test</a>
+                            <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Practice</a>
                         </li>
                         
 				   </ul>
