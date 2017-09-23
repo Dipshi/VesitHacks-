@@ -130,7 +130,7 @@
                 </div>
 		<div class="container-fluid" id="field">
 		
-		<button type="button2" class="btn btn-info btn-large btn-block"  data-target="#demo2" data-toggle="collapse">Test for progrmics basics </button>
+		<button type="button2" class="btn btn-info btn-large btn-block"  data-target="#demo2" data-toggle="collapse">Test for progarming basics </button>
 		
 		<div id="demo2" class="collapse"><br>
 				<!--<a  href="">Check here for typing test</a>-->
