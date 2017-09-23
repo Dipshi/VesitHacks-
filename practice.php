@@ -126,7 +126,7 @@
  
       <div id="page-wrapper">
            <div class="col-lg-12">
-                    <h1 class="page-header">Practice</h1>
+                    <h1 class="page-header">Learn</h1>
 			</div>
 		<div class="container-fluid" id="field">
 			<b>You want to learn about ?</b>
