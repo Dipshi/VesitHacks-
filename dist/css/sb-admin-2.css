@@ -243,6 +243,7 @@ table.dataTable thead .sorting:after {
 #demo1 
 {
 	border:solid lightblue 1px;
+	padding:10px;
 }
  #demo2
 {
@@ -252,10 +253,12 @@ table.dataTable thead .sorting:after {
  #demo3
 {
 	border:solid lightblue 1px;
+	padding:10px;
 }
  #demo4
 {
 	border:solid lightblue 1px;
+	padding:10px;
 }
 .panel-green > .panel-heading {
   border-color: #5cb85c;

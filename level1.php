@@ -137,7 +137,7 @@
 			<input type="integer" id="wpm_marks">
 			<br>
 			<br>
-			<input type="submit" id="submit_wpm">
+			<input type="submit" id="submit_wpm" class="btn btn-primary " >
 			<br>
 		</div>
 		<br>
